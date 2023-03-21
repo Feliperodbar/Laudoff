@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: kanit;
+}
+:root{
+    --delft-blue: rgb(77, 101, 170);
+    --ash-gray: #a0b2a6ff;
+    --citrine: #f3de2cff;
+    --vermilion: #ef3e36ff;
+    --hunter-green: #345830ff;
+    
+}
+body{
+    margin: 0 auto;
+    background-color: var(--ash-gray);
+}
+header{
+    margin: 0 auto;
+}
+header > h1{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--vermilion);
+}
+#info > p {
+    padding: 2px;
+    text-align: left;
+    margin-right: 25px;
+    color: var(--hunter-green);
+    text-transform: uppercase;
+    margin-left: 10px;}
+    
+#info > input{
+    width: 45vw;
+    align-content: center;
+    
+}
+#info{
+    text-align: center;
+}

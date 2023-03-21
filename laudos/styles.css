@@ -48,3 +48,8 @@ i#menu{
 i#menu:hover{
     background-color: var(--ash-gray);
 }
+iframe{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
