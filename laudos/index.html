@@ -16,7 +16,14 @@
         <h1>LAUDOFF</h1>
         <i id="menu" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
             <menu id="itens">
-                <a href="exames/hemograma.html" target="frame">hematologia</a>
+                <a href="#">hematologia</a>
+                <div id="submenu">
+                   <a target="frame" href="exames/hemograma.html">Hemograma completo </a>
+                   <a href="#">HT/HB</a>
+                   <a href="#">Plaquetas</a>
+                   <a href="#">VHS</a>
+                </div>
+
                 <a href="#">Bioquímica</a>
                 <a href="#">Imunologia</a>
                 <a href="#">Urinalise</a>
@@ -27,13 +34,13 @@
         <iframe name ="frame" src="" frameborder="0"></iframe>
     </main>
     <script>
-        function clickMenu() {
+        function clickMenu(){
             if(itens.style.display == 'block'){
                 itens.style.display = 'none'
             } else {
                 itens.style.display = 'block'
             }
-    }
+        }
     </script>
 </body>
 </html>

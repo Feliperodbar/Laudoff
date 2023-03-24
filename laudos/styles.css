@@ -53,3 +53,25 @@ iframe{
     width: 100vw;
     height: 100vh;
 }
+#submenu{
+    display: none;
+
+
+}
+#submenu a{
+    width: 80vw;
+    margin: 0 auto;
+    font-size: 10pt;
+    text-align: center;
+    padding: 0.5rem;
+    color: var(--hunter-green);
+    cursor: pointer;
+    margin-top: 3px;
+}
+#itens:hover #submenu{
+    display: block;
+}
+#submenu a:hover {
+    color: var(--delft-blue);
+    background-color: var(--ash-gray);
+}

@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <h1>Hemograma</h1>
+        <h1>Hemograma completo</h1>
         <div id="info">
             <p>Nome do paciente:</p> <input placeholder="Nome do paciente" type="text">
             <p>Data de nascimento:</p> <input placeholder="" type="date">
@@ -21,6 +21,71 @@
         </div>
     </header>
     <main>
+       <h2>Eritrograma</h2>
+       <div class="eritrotable">
+           <table>
+            <thead>
+                <tr>
+                    <th>Eritrograma</th>
+                    <th>Valores</th>
+                    <th>Referencia</th>
+                </tr>
+                
+            </thead>
+               <tbody>
+                   <tr>
+                    <td>Hemácias: </td>
+                    <td><input  class="inputab" type="number"></td>
+                    <td><p  class="ref">Feminino: 4,00 a 5,60 Masculino: 4,50 a 6,50
+                    </p></td>
+                   </tr>
+                   <tr>
+                    <td>Hemoglobina: </td>
+                    <td><input  class="inputab" type="number"></td>
+                    <td><p  class="ref">Feminino: 12,00 a 16,00 Masculino: 16,00 a 18,00
+                    </p></td>
+                   </tr>
+                   <tr>
+                    <td>Hematócrito: </td>
+                    <td><input  class="inputab" type="number"></td>
+                    <td><p  class="ref">Feminino: 4,00 a 5,60 Masculino: 4,50 a 6,50
+                    </p></td>
+                   </tr>
+                   <tr>
+                    <td>VCM: </td>
+                    <td><input  class="inputab" type="number"></td>
+                    <td><p  class="ref">Feminino: 4,00 a 5,60 Masculino: 4,50 a 6,50
+                    </p></td>
+                   </tr>
+                   <tr>
+                    <td>HCM: </td>
+                    <td><input  class="inputab" type="number"></td>
+                    <td><p  class="ref">Feminino: 4,00 a 5,60 Masculino: 4,50 a 6,50
+                    </p></td>
+                   </tr>
+                   <tr>
+                    <td>CHMC: </td>
+                    <td><input  class="inputab" type="number"></td>
+                    <td><p  class="ref">Feminino: 4,00 a 5,60 Masculino: 4,50 a 6,50
+                    </p></td>
+                   </tr>
+                   <tr>
+                    <td>RDW: </td>
+                    <td><input  class="inputab" type="number"></td>
+                    <td><p  class="ref">Feminino: 4,00 a 5,60 Masculino: 4,50 a 6,50
+                    </p></td>
+                   </tr>
+                   <tr>
+                    <td>Plaquetas: </td>
+                    <td><input  class="inputab" type="number"></td>
+                    <td><p  class="ref">Feminino: 4,00 a 5,60 Masculino: 4,50 a 6,50
+                    </p></td>
+                   </tr>
+               </tbody>
+               </table>
+       </div>
+    
     </main>
 </body>
+<button onclick="window.print()">Imprimir laudo</button>
 </html>
