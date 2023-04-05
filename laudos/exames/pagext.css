@@ -26,13 +26,17 @@ body{
 }
 header{
     margin: 0 auto;
+    margin-top: 10px;
     background-color: white;
+    width: 95vw;
 }
 header > h1{
     text-transform: uppercase;
     text-align: center;
     background-color: var(--vermilion);
     font-size: 20pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #info > p {
     padding: 2px;
@@ -50,6 +54,7 @@ header > h1{
 }
 #info{
     text-align: center;
+    border: 2px var(--hunter-green) solid;
 }
 main > h2 {
     text-transform: uppercase;
@@ -57,6 +62,10 @@ main > h2 {
     background-color: var(--vermilion);
     font-size: 20pt;
     margin-top: 5px;
+    width: 95vw;
+    margin: 0 auto;
+    margin-top: 10px;
+
 }
 table{
    margin: 0 auto;

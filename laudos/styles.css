@@ -14,7 +14,6 @@
 }
 body{
     background-color: var(--ash-gray);
-    width: 100vw;
 }
 a{
     display: block;
@@ -37,6 +36,8 @@ header > h1{
     text-align: center;
     background-color: var(--hunter-green);
     color: white;
+    margin: 0 auto;
+
 }
 i#menu{
     background-color:white;
@@ -45,14 +46,18 @@ i#menu{
     padding: 0.5rem;
     color: var(--hunter-green);
     cursor: pointer;
+    width: 95vw;
+    margin: 0 auto;
 }
 i#menu:hover{
     background-color: var(--ash-gray);
 }
 iframe{
     display: block;
-    width: 100vw;
+    width: 95vw;
     height: 100vh;
+    margin: 0 auto;
+
 }
 #submenu{
     display: none;
@@ -72,5 +77,8 @@ iframe{
 #submenu a:hover {
     color: var(--delft-blue);
     background-color: var(--ash-gray);
-
+}
+#itens{
+    width: 95vw;
+    margin: 0 auto;
 }
