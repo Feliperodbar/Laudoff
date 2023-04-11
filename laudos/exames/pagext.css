@@ -112,3 +112,6 @@ th{
 .linha2{
     background-color:white;
 }
+@media print{
+   #buttonimp{ display: none;
+}

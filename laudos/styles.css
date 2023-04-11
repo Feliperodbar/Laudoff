@@ -82,3 +82,33 @@ iframe{
     width: 95vw;
     margin: 0 auto;
 }
+@media screen and (max-width: 768px) {
+
+    i#menu{
+      width: 50px;
+      border-radius: 3px;
+      margin: 5px;
+}
+    header > h1{
+        text-align: left;
+        padding: 10px;
+    }
+    a{
+        display: inline-block;
+        flex-wrap: wrap;
+        align-content: space-around;
+        font-size: 12pt;
+        border-radius: 4px;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+   #submenu > a {
+        width: auto;
+      border-radius: 3px;
+      margin: 5px;
+      display: inline-flex;
+      flex-wrap: wrap;
+      background-color: var(--vermilion);
+    color: white;
+    }
+}
