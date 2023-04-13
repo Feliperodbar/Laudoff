@@ -85,30 +85,35 @@ iframe{
 @media screen and (max-width: 768px) {
 
     i#menu{
-      width: 50px;
-      border-radius: 3px;
-      margin: 5px;
+        width: 77.5%;
+        border-radius: 3px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: var(--hunter-green);
+        color: white;
 }
     header > h1{
-        text-align: left;
+        text-align: center;
         padding: 10px;
     }
     a{
-        display: inline-block;
-        flex-wrap: wrap;
-        align-content: space-around;
+        flex-wrap: nowrap;
         font-size: 12pt;
         border-radius: 4px;
-        padding: 5px;
-        margin-bottom: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
     }
    #submenu > a {
-        width: auto;
-      border-radius: 3px;
-      margin: 5px;
-      display: inline-flex;
-      flex-wrap: wrap;
-      background-color: var(--vermilion);
-    color: white;
+       width: 77.5%;
+        border-radius: 3px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: var(--hunter-green);
+        color: var(--ash-gray);
+    }
+    #itens{
+        width: 80%;
     }
 }
